@@ -1,0 +1,102 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(236, 241, 240);
+  font-family: sans-serif;
+}
+#heading{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.des{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 3.4em;
+  font-weight: bold;
+}
+p{
+font-size: 1.2em;
+margin: 10px;
+color: rgb(82, 80, 80);
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2{
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: bolder;
+}
+.main-div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  padding: 20px;
+}
+input{
+  font-size: 1.8em;
+  padding: 10px;
+  border-radius: 10px;
+}
+button{
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(108, 108, 231);
+  border: none;
+  color: white;
+}
+.phones{
+  /*width: 100vw;
+ /* height: 80vh;*/
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin: 30px;
+ 
+}
+.phone{
+  width: 400px;
+  height: 500px;
+  border-radius: 25px;
+  text-align: center;
+  border: white;
+  background-color: aliceblue;
+  box-shadow: 5px 20px 5px 1px rgba(100, 100, 167, 0.2);
+  margin: 20px;
+  padding-top: 30px;
+
+}
+.foot{
+  height: 400px;
+  
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+#has{
+  text-align: center;
+  margin-left: 150px;
+  width: 150px;
+  height: 150px;
+  
+}
+h4{
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
